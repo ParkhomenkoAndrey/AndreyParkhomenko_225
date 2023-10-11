@@ -1,0 +1,16 @@
+.container{
+    position: relative;
+}
+#big_pan {
+    
+}
+#pan {
+    position: absolute;
+    top: 12px;
+    left: 54px;
+}
+#big_pan2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
