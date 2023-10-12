@@ -1,9 +1,6 @@
 .container{
     position: relative;
 }
-#big_pan {
-    
-}
 #pan {
     position: absolute;
     top: 12px;

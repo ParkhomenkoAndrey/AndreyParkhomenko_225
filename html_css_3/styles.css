@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.Tell_Me_Baby{
+    font-family: 'Jockey One', sans-serif;
+}
+.Black_Summer{
+    font-family: 'Bree Serif', serif;
+}
