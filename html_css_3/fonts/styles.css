@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'BreeSerif-Regular';
+  src: url(./BreeSerif-Regular.eot);
+  src: url(./BreeSerif-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./BreeSerif-Regular.otf) format('otf'),
+       url(./BreeSerif-Regular.svg#BreeSerif-Regular) format('svg'),
+       url(./BreeSerif-Regular.ttf) format('truetype'),
+       url(./BreeSerif-Regular.woff) format('woff'),
+       url(./BreeSerif-Regular.woff2) format('woff2');
+}
