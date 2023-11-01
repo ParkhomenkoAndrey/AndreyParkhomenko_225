@@ -1,0 +1,52 @@
+.frame_left{
+    background-image: url(./images/ramka_l.jpeg);
+    background-repeat: repeat-y;
+    background-position: left;
+}
+
+.frame_right{
+    background-image: url(./images/right_jpeg.jpeg);
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.frame_top{
+    background-image: url(./images/ramka_b.jpeg);
+    background-repeat: repeat-x;
+    background-position: top;
+}
+
+.frame_bot{
+    background-image: url(./images/frame_bot.jpeg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.frame_top_left{
+    background-image: url(./images/top_left_1.jpeg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.frame_top_right{
+    background-image: url(./images/top_right_1.jpeg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.frame_bot_left{
+    background-image: url(./images/bottom_left.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.frame_bot_right{
+    background-image: url(./images/bottom_right.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.content{
+    padding: 45px;
+    text-align: center;
+}
