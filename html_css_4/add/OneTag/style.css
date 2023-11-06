@@ -1,0 +1,8 @@
+.frame{
+    background: url(./images/top_left_1.jpeg) top left no-repeat, url(./images/bottom_left.jpeg) bottom left no-repeat, url(./images/top_right_1.jpeg) top right no-repeat, url(./images/bottom_right.jpeg) bottom right no-repeat, url(./images/left.jpeg) left repeat-y, url(./images/right.jpeg) right repeat-y, url(./images/top.jpeg) top repeat-x, url(./images/bottom.jpeg) bottom repeat-x;
+    padding: 70px;
+}
+
+.content{
+    text-align: center;
+}
