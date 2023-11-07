@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: double 5px white;
+    background: url(./Ball12/images/left_and_center.png) 20% top repeat-y;
+}
+
+.left{
+    width: 20%;
+    float: left;
+}
+
+.right{
+    width: 200px;
+    float: right;
+}
+
+.center{
+    margin-left: 22%;
+    margin-right: 220px;
+}
+
+.spacer{
+    clear: both;
+}
+
+.second_background{
+    background: url(./Ball12/images/ball3.png) left top no-repeat, 
+    url(./Ball12/images/ball3.png) left bottom no-repeat,
+    url(./Ball12/images/two_balls.png) 20% top no-repeat,
+    url(./Ball12/images/two_balls.png) 20% bottom no-repeat,
+    url(./Ball12/images/two_balls_right.png) right top no-repeat,
+    url(./Ball12/images/two_balls_right.png) right bottom no-repeat,
+    url(./Ball12/images/ball3.png) right top no-repeat,
+    url(./Ball12/images/ball3.png) right bottom no-repeat,
+    url(./Ball12/images/right.png) right top repeat-y;
+}
+
