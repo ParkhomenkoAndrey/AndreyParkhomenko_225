@@ -109,15 +109,16 @@ li:last-child{
     margin-bottom: 0;
 }
 
+a{
+    color: black;
+    border: solid 5px transparent;
+}
+
 a:hover{
     border: groove black 5px;
     border-radius: 25% 0 25%;
     color: white;
     background-color: black;
-}
-
-a{
-    color: black;
 }
 
 .contant_wrap{
