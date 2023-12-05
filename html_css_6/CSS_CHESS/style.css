@@ -1,0 +1,70 @@
+body > table tr:nth-of-type(even) td:nth-of-type(odd){
+    background-color: black;
+}
+
+body > table tr:nth-of-type(odd) td:nth-of-type(even){
+    background-color: black;
+}
+
+body > table tr:first-child td:nth-child(odd){
+    background-color: #6ed46e;
+}
+
+body > table tr:first-child td:nth-child(even){
+    background-color: #6ed46e;
+}
+
+body > table tr:first-child td{
+    width: 50px;
+    height: 25px;
+}
+
+body > table tr td:first-of-type{
+    width: 25px;
+    height: 25px;
+}
+
+body > table tr:nth-child(odd) td:last-child{
+    background-color: #6ed46e;
+}
+
+body > table tr:nth-child(even) td:last-child{
+    background-color: #6ed46e;
+}
+
+body > table tr:last-child td{
+    width: 50px;
+    height: 25px;
+}
+
+body > table tr:last-child td:first-of-type{
+    width: 25px;
+    height: 25px;
+}
+
+body > table tr td:last-child{
+    width: 25px;
+    height: 50px;
+}
+
+body > table tr td:last-of-type{
+    width: 25px;
+    height: 25px;
+}
+
+body > table tr:last-child td:nth-child(odd){
+    background-color: #6ed46e;
+}
+
+body > table tr:last-child td:nth-child(even){
+    background-color: #6ed46e;
+}
+
+body > table tr:nth-child(odd) td:first-child{
+    background-color: #6ed46e;
+}
+
+body > table tr:nth-child(even) td:first-child{
+    background-color: #6ed46e;
+}
+

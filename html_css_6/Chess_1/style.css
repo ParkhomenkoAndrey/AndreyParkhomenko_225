@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body :nth-child(2){
+    color: green;
+}
+
+body :nth-child(3){
+    color: red;
+}
+
+body :nth-child(4){
+    color: blueviolet;
+}
+
+body :nth-child(4)::before{
+    content: url(extref.png);
+    margin-right: 5px;
+}
+
+body :nth-child(5){
+    color: blueviolet;
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+body :nth-child(6){
+    text-decoration: none;
+    color: blueviolet;
+}

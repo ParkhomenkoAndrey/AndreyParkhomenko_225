@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body > div, ul, table{
+    margin-bottom: 15px;
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    color: red;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+span, nav, li{
+    text-align: center;
+}
+
+body > div:nth-child(2) nav{
+    display: inline;
+}
+
+body > div:nth-child(3) div{
+    display: inline;
+}
+
+body > div:nth-child(4) li{
+    display: inline;
+}
+
+body > div:nth-child(1) span{
+    border-right: solid 3px red;
+    padding: 10px;
+}
+
+body > div:nth-child(1) span:last-child{
+    border: none;
+}
+
+body > div:nth-child(2) nav{
+    border-left: solid 3px red;
+    padding: 10px;
+}
+
+body > div:nth-child(2) nav:nth-child(2){
+    border: none;
+}
+
+body > div:nth-child(3) div{
+    padding: 10px;
+}
+
+body > div:nth-child(3) div::after{
+    content: '';
+    border-right: solid 3px red;
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+body > div:nth-child(3) div:last-child::after{
+    border: none;
+}
+
+body > div:nth-child(3) div a{
+    margin-right: 15px;
+}
+
+body > div:nth-child(4) li::before{
+    content: '';
+    border-left: solid 3px red;
+    font-size: 32px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+body > div:nth-child(4) li:first-child::before{
+    margin-left: 0;
+}
+
+body > div:nth-child(4) li:first-child::before{
+    border: none;
+}
+
+body > table td img{
+    margin: 10px;
+}
+
+body > table td a{
+    vertical-align: 25px;
+}
+
+body > table td:last-child a{
+    vertical-align: 12px;
+}
+
+body > table td:first-child a{
+    margin-left: 10px;
+}

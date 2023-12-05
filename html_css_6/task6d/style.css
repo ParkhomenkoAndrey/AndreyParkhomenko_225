@@ -1,0 +1,14 @@
+.wrap{
+    float: left;
+}
+
+.star{
+    width: 75px;
+    height: 78px;
+    float: right;
+    background-image: url(star0.png);
+}
+
+.wrap > .star:hover ~ .star, .wrap > .star:hover{
+    background-image: url(star1.png);
+}

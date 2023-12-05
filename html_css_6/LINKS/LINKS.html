@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LINKS</title>
+</head>
+<body>
+    
+    <div>
+        <p>Первый вариант через <b>span</b> с <b>border-right</b> и исключаем у <b>last-child</b> этот <b>border-right</b></p>
+        <span><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">первая ссылка</a></span>
+        <span><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">вторая ссылка</a></span>
+        <span><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">третья ссылка</a></span>
+        <span><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">четвертая ссылка</a></span>
+        <span><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">пятая ссылка</a></span>
+    </div>
+    <div>
+        <p>Второй вариант через <b>nav</b> с применением на него <b>display: inline</b> и <b>border-left</b>, исключаем <b>border</b> у <b>nth-child</b> (единственное не понятно, почему тег <b>p</b> определяет как <b>nav</b>, когда обращаюсь к <b>nav</b> через <b>body > div:nth-child(2) nav:nth-child(1)</b>, то border не убирается, работает только при обращении к <b>body > div:nth-child(2) nav:nth-child(2)</b>)</p>
+        <nav><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">первая ссылка</a></nav>
+        <nav><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">вторая ссылка</a></nav>
+        <nav><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">третья ссылка</a></nav>
+        <nav><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">четвертая ссылка</a></nav>
+        <nav><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">пятая ссылка</a></nav>
+    </div>
+    <div>
+        <p>Третий вариант через тег <b>div</b> с использованием псевдоэлемента <b>after</b> и выключением его у <b>last-child</b><br>
+        Здесь возникла проблема в вертикальной линии, а именно в том, что она задается содержимому <b>div</b>, пришлось отдельно для вертикальной линии задавать параметры <b>font-size:</b> и <b>vertical-align:</b></p>
+        <div><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">первая ссылка</a></div>
+        <div><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">вторая ссылка</a></div>
+        <div><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">третья ссылка</a></div>
+        <div><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">четвертая ссылка</a></div>
+        <div><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">пятая ссылка</a></div>
+    </div>
+    <div>
+        <p>В четвертом варианте применил список через <b>ul > li</b> и всевдоэлемент <b>before</b> с отключением border у <b>first-child</b></p>
+        <ul>
+            <li><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">первая ссылка</a></li>
+            <li><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">вторая ссылка</a></li>
+            <li><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">третья ссылка</a></li>
+            <li><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">четвертая ссылка</a></li>
+            <li><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">пятая ссылка</a></li>
+        </ul>
+    </div>
+    <table>
+        <p>Пятый вариант выполнил через <b>table</b>, вертикальную линию добавил через <b>img</b> и выровнил через <b>vertical-align</b></p>
+        <tr>
+            <td><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">первая ссылка</a><img src="line.png" alt="line"></td>
+            <td><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">вторая ссылка</a><img src="line.png" alt="line"></td>
+            <td><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">третья ссылка</a><img src="line.png" alt="line"></td>
+            <td><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">четвертая ссылка</a><img src="line.png" alt="line"></td>
+            <td><a href="http://fe.it-academy.by/Materials/HTMLCSS_V14/HTMLCSS_6.html">пятая ссылка</a></td>
+        </tr>
+    </table>
+</body>
+</html>
